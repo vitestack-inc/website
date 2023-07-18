@@ -21,6 +21,7 @@ export default function Home() {
         <Typography variant="h4" component="h1" gutterBottom>
           Vitestack 404
         </Typography>
+        <Typography variant="h4" > Testing CI + CD... Working ?</Typography>
       </Box>
     </Container>
   );
