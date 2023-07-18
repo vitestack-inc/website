@@ -19,13 +19,8 @@ export default function Home() {
         }}
       >
         <Typography variant="h4" component="h1" gutterBottom>
-          Material UI - Next.js example in TypeScript
+          Vitestack 404
         </Typography>
-        <Link href="/about" color="secondary">
-          Go to the about page
-        </Link>
-        <ProTip />
-        <Copyright />
       </Box>
     </Container>
   );
