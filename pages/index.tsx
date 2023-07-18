@@ -22,6 +22,7 @@ export default function Home() {
           Vitestack 404
         </Typography>
         <Typography variant="h4" > Testing CI + CD... Working ?</Typography>
+        <Typography variant="h4" > Testing staging... Working ?</Typography>
       </Box>
     </Container>
   );
