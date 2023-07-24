@@ -23,6 +23,7 @@ export default function Home() {
         </Typography>
         <Typography variant="h4" > Testing CI + CD... Working ?</Typography>
         <Typography variant="h4" > Testing staging... Working ?</Typography>
+        <Typography variant="h4" > Now we shall deploy to digital ocean and test!!!!?</Typography>
       </Box>
     </Container>
   );
