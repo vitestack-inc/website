@@ -5,26 +5,10 @@ import Box from '@mui/material/Box';
 import Link from '../src/Link';
 import ProTip from '../src/ProTip';
 import Copyright from '../src/Copyright';
+import ComingSoon from '../src/components/ComingSoon';
 
 export default function Home() {
   return (
-    <Container maxWidth="lg">
-      <Box
-        sx={{
-          my: 4,
-          display: 'flex',
-          flexDirection: 'column',
-          justifyContent: 'center',
-          alignItems: 'center',
-        }}
-      >
-        <Typography variant="h4" component="h1" gutterBottom>
-          Vitestack 404
-        </Typography>
-        <Typography variant="h4" > Testing CI + CD... Working ?</Typography>
-        <Typography variant="h4" > Testing staging... Working ?</Typography>
-        <Typography variant="h4" > Now we shall deploy to digital ocean and test!!!!?</Typography>
-      </Box>
-    </Container>
+   <ComingSoon/>
   );
 }
