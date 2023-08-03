@@ -6,9 +6,12 @@ import Link from '../src/Link';
 import ProTip from '../src/ProTip';
 import Copyright from '../src/Copyright';
 import ComingSoon from '../src/components/ComingSoon';
+import Header from '@/components/Header'
 
 export default function Home() {
-  return (
-   <ComingSoon/>
+  return (<div>
+    <Header />
+    <ComingSoon />
+  </div>
   );
 }

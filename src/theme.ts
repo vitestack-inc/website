@@ -11,9 +11,11 @@ export const roboto = Roboto({
 
 // Create a theme instance.
 const theme = createTheme({
+  spacing: (factor: number) => `${factor * 0.8}rem`,
   palette: {
     primary: {
       main: '#639A30',
+      contrastText: '#fff',
     },
     secondary: {
       main: '#19857b',
@@ -26,8 +28,7 @@ const theme = createTheme({
     fontFamily: roboto.style.fontFamily,
     // fontSize: 10,
     h1: {
-      fontSize: '6rem', // Equivalent to 25px.
-      color: 'purple', // Example color.
+      fontSize: '6rem', // Equivalent to 25px..
     },
   },
 });
