@@ -100,11 +100,13 @@ function NavBar() {
                         </Menu>
                     </Box>
 
-                    <Image
+                    <Box sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} >
+                        <Image
                         src={Logo}
                         alt="Vitestack Inc."
                         width={160}
-                    />
+                        />
+                    </Box>
 
                     <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
                         {pages.map((page) => (
