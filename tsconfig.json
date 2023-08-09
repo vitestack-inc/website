@@ -17,7 +17,7 @@
     "incremental": true,
     "baseUrl": "src",
     "paths": {
-      "@/*": ["./*"]
+      "@Vite/*": ["./*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
