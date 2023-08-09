@@ -9,7 +9,7 @@ import MenuIcon from '@mui/icons-material/Menu';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
-import Logo from '@/assets/images/logo.svg';
+import Logo from '@Vite/assets/images/logo.svg';
 import Image from 'next/image'
 
 const pages = [''];

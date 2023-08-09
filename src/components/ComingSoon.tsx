@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Grid, Typography, Hidden } from '@mui/material';
-import BG from '@/assets/images/BG_coming.png';
+import BG from '@Vite/assets/images/BG_coming.png';
 import Image from 'next/image';
 import Countdown from 'react-countdown';
 
