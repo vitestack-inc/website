@@ -23,8 +23,15 @@
   "devDependencies": {
     "@types/node": "latest",
     "@types/react": "latest",
-    "eslint": "latest",
+    "@typescript-eslint/eslint-plugin": "^5.52.0",
+    "@typescript-eslint/parser": "^6.3.0",
+    "eslint": "^8.0.1",
     "eslint-config-next": "latest",
-    "typescript": "latest"
+    "eslint-config-standard-with-typescript": "^37.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-n": "^15.0.0 || ^16.0.0 ",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.33.1",
+    "typescript": "*"
   }
 }

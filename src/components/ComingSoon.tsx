@@ -1,10 +1,15 @@
 import React from 'react';
-import { Container, Grid, Typography, Box, CardMedia, Hidden } from '@mui/material';
+import { Container, Grid, Typography, Hidden } from '@mui/material';
 import BG from '@/assets/images/BG_coming.png';
 import Image from 'next/image';
 import Countdown from 'react-countdown';
 
 const ComingSoon = () => {
+
+
+  const ab = 'erf';
+
+  console.log(ab);
   return (
     <Container maxWidth={false} sx={{
       height: 'calc(100vh - 8rem)',
