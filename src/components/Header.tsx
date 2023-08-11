@@ -10,7 +10,7 @@ import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import Logo from '@Vite/assets/images/logo.svg';
-import Image from 'next/image'
+import Image from 'next/image';
 
 const pages = [''];
 // const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
@@ -38,7 +38,6 @@ function NavBar() {
         <AppBar position="static" sx={{
             bgcolor: 'background.default',
             height: '8rem',
-
         }} >
             <Container maxWidth="xl">
                 <Toolbar disableGutters>
